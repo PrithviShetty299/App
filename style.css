@@ -1,0 +1,11 @@
+#a{
+    position: absolute;
+}
+body{
+    background-color: #c4c4c4;
+}
+#but{
+    float:left ;   
+    top:605px;
+    left:560px;
+}
