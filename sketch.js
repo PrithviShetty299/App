@@ -45,7 +45,7 @@ function draw(){
 function keyPressed(){
     if(key==' ')
     {
-        bird.velocity+=-15;
+        bird.velocity+=-18;
     }
 }
 function reload(event){
