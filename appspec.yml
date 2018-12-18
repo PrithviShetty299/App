@@ -3,6 +3,12 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
+files:
+  - source: /style.css
+    destination: /var/www/html/  
+files:
+  - source: /sketch.js
+    destination: /var/www/html/    
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
