@@ -53,8 +53,8 @@ function reload(event){
 }
 
 function Pipe(){
-    this.up=random(height/4,height/2);
-    this.bottom=random(height/4,height/2);
+    this.up=random(height/4,height/3);
+    this.bottom=random(height/4,height/3);
     this.x=width;
     this.w=20;
     this.speed=-5;
