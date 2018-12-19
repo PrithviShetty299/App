@@ -45,7 +45,7 @@ function draw(){
 function keyPressed(){
     if(key==' ')
     {
-        bird.velocity+=-18;
+        bird.velocity+=-15;
     }
 }
 function reload(event){
@@ -57,7 +57,7 @@ function Pipe(){
     this.bottom=random(height/4,height/2);
     this.x=width;
     this.w=20;
-    this.speed=-5;
+    this.speed=-3;
 
     this.hit=function(bird){
         if(bird.y < this.up || bird.y > height-this.bottom){
